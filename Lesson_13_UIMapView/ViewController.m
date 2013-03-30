@@ -13,9 +13,18 @@
 @end
 
 @implementation ViewController
-
+@synthesize myFirstMapView;
 - (void)viewDidLoad
 {
+    CLLocationCoordinate2D center;
+    center.latitude=31.17;
+    center.longitude=121.27;
+    MKCoordinateSpan span;
+    span.latitudeDelta=0.2;
+    span.longitudeDelta=0.2;
+    MKCoordinateRegion region={center,span};
+    [myFirstMapView setRegion:region];
+    
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
 }

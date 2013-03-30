@@ -23,6 +23,8 @@
 		85ADB7A816F7062F00D8078C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85ADB78316F7062F00D8078C /* Foundation.framework */; };
 		85ADB7B016F7062F00D8078C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 85ADB7AE16F7062F00D8078C /* InfoPlist.strings */; };
 		85ADB7B316F7062F00D8078C /* Lesson_13_UIMapViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 85ADB7B216F7062F00D8078C /* Lesson_13_UIMapViewTests.m */; };
+		85ADB7BD16F7079500D8078C /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85ADB7BC16F7079500D8078C /* MapKit.framework */; };
+		85ADB7BF16F7083300D8078C /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85ADB7BE16F7083300D8078C /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +60,8 @@
 		85ADB7AF16F7062F00D8078C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		85ADB7B116F7062F00D8078C /* Lesson_13_UIMapViewTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Lesson_13_UIMapViewTests.h; sourceTree = "<group>"; };
 		85ADB7B216F7062F00D8078C /* Lesson_13_UIMapViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Lesson_13_UIMapViewTests.m; sourceTree = "<group>"; };
+		85ADB7BC16F7079500D8078C /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		85ADB7BE16F7083300D8078C /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +69,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85ADB7BF16F7083300D8078C /* CoreLocation.framework in Frameworks */,
+				85ADB7BD16F7079500D8078C /* MapKit.framework in Frameworks */,
 				85ADB78216F7062F00D8078C /* UIKit.framework in Frameworks */,
 				85ADB78416F7062F00D8078C /* Foundation.framework in Frameworks */,
 				85ADB78616F7062F00D8078C /* CoreGraphics.framework in Frameworks */,
@@ -87,6 +93,8 @@
 		85ADB77516F7062F00D8078C = {
 			isa = PBXGroup;
 			children = (
+				85ADB7BE16F7083300D8078C /* CoreLocation.framework */,
+				85ADB7BC16F7079500D8078C /* MapKit.framework */,
 				85ADB78716F7062F00D8078C /* Lesson_13_UIMapView */,
 				85ADB7AB16F7062F00D8078C /* Lesson_13_UIMapViewTests */,
 				85ADB78016F7062F00D8078C /* Frameworks */,
